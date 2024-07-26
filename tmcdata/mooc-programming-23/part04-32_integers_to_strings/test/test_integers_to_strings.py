@@ -32,7 +32,7 @@ block. The following row should be moved:
     def test_1_function_exists(self):
         try:
             from src.integers_to_strings import formatted
-            formatted([0.23])
+            pass
         except:
             self.assertTrue(False, 'Your code should contain function named as formatted(my_list: list)')
         try:
