@@ -1,0 +1,5 @@
+gname = input("What's your name?")
+fname = input("What's your family name?")
+address = input("What's your strett adress?")
+citypc = input ("Please write your city and Postal Code.")
+print( gname + " " + fname + "\n" + address + "\n" + citypc)
